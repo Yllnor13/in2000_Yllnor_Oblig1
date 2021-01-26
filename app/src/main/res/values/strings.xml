@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Yllnor_Oblig1</string>
+    <string name="resultat">resultat kommer her</string>
+    <string name="knappEn">sjekk palindrom</string>
+    <string name="knappTo">Neste activity</string>
+    <string name="brukerInput"></string>
+    <string name="textviewet">svar</string>
+    <string name="neste">neste aktivitet</string>
+    <string name="convert">Konverter</string>
+    <string-array name="units">
+        <item>fluid ounce</item>
+        <item>cup</item>
+        <item>gallon</item>
+        <item>hogshead</item>
+    </string-array>
+</resources>
