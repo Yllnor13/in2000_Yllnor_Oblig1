@@ -6,4 +6,62 @@
     android:layout_height="match_parent"
     tools:context=".QuizActivity">
 
+    <TextView
+        android:id="@+id/textSpoersmaal"
+        android:layout_width="282dp"
+        android:layout_height="155dp"
+        android:text="@string/spoersmaal"
+        app:layout_constraintBottom_toTopOf="@+id/buttonRestart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.116" />
+
+    <Button
+        android:id="@+id/buttonFakta"
+        android:background="@android:color/holo_green_dark"
+        android:textColor="@android:color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fakta"
+        app:layout_constraintBottom_toTopOf="@+id/textPoeng"
+        app:layout_constraintEnd_toStartOf="@+id/buttonFleip"
+        app:layout_constraintHorizontal_bias="0.477"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textSpoersmaal" />
+
+    <Button
+        android:id="@+id/buttonFleip"
+        android:background="@android:color/holo_red_dark"
+        android:textColor="@android:color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="80dp"
+        android:text="@string/fleip"
+        app:layout_constraintBottom_toTopOf="@+id/textPoeng"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textSpoersmaal" />
+
+    <Button
+        android:id="@+id/buttonRestart"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/restart"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textPoeng"
+        android:layout_width="265dp"
+        android:layout_height="141dp"
+        android:text="@string/poengsum"
+        app:layout_constraintBottom_toTopOf="@+id/buttonRestart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textSpoersmaal" />
 </android.support.constraint.ConstraintLayout>

@@ -7,6 +7,11 @@
     <string name="textviewet">svar</string>
     <string name="neste">neste aktivitet</string>
     <string name="convert">Konverter</string>
+    <string name="fleip">Fleip</string>
+    <string name="spoersmaal">Spoersmaal kommer her</string>
+    <string name="poengsum">poengsum kommer her</string>
+    <string name="fakta">Fakta</string>
+    <string name="restart">Restart</string>
     <string-array name="units">
         <item>fluid ounce</item>
         <item>cup</item>
