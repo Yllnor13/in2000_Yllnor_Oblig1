@@ -33,11 +33,11 @@ class MainActivity : AppCompatActivity() {
             brukerInput.onEditorAction(EditorInfo.IME_ACTION_DONE) //slaar av tastaturet
         }
 
-        val nesteActivity = findViewById<Button>(R.id.knappTo)
+        val nesteActivity = findViewById<Button>(R.id.knappTo) //knapp for neste activity blir registrert
 
         nesteActivity.setOnClickListener{
             val intent = Intent(this, ConverterActivity::class.java)
-            startActivity(intent)
+            startActivity(intent)  //starter neste activity
         }
 
     }

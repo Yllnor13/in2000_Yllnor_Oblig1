@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!--valgte aa goere den roed fordi jeg liker den fargen-->
     <color name="purple_200">#FC8686</color>
     <color name="purple_500">#EE0000</color>
     <color name="purple_700">#B30000</color>
